@@ -1,4 +1,5 @@
 Var chocolateBars= ["snickers", "hundred grand", "kitkat", "skittles"];
 
-Function addElementToBeginningOfArray(chocolateBars){
-Return chocolateBars;
+Function addElementToBeginningOfArray(array, element){
+Return [element, ...array]
+}
