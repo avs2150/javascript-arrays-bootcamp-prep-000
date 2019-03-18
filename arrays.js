@@ -28,3 +28,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
 }
+function removeElementFromEndOfArray(array) {
+  retutn array.slice(4)
+}
